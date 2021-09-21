@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to top, #b225b2, #e0d6e3 );
+    font-family: Urbanist, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #71147d;
+}
+
+h3{
+    color: #71147d;
+}
+
+.main{
+    background: linear-gradient(to top, #56125f, #9c31d1 );
+    width: 80%;
+    height: 70%;
+    border-radius: 15px;
+    margin-top: 90px;
+    margin-bottom: 85px;
+    padding: 25px;
+}
+
+.main__container{
+    /*evitar que se corte la imagen cuando se agrande*/
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main__container--card{
+    background: white;
+    border-radius: 25px;
+    margin: 15px;
+    width: 300px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.main__container--img{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+}
